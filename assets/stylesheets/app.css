@@ -6921,7 +6921,7 @@ meta.foundation-mq-topbar {
 }
 /* line 219, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-  color: #ffffff;
+  color: #112e50;
   display: block;
   font-weight: normal;
   padding: 0 1rem;
@@ -6935,7 +6935,7 @@ meta.foundation-mq-topbar {
 }
 /* line 235, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar a {
-  color: #ffffff;
+  color: #112e50;
   display: block;
   font-size: 0.8125rem;
   font-weight: bold;
@@ -7033,7 +7033,7 @@ meta.foundation-mq-topbar {
 }
 /* line 334, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a {
-  color: #ffffff;
+  color: #112e50;
   display: block;
   font-family: "Source Sans Pro", Helvetica, Roboto, Arial, sans-serif;
   font-size: 0.8125rem;
@@ -7226,7 +7226,7 @@ meta.foundation-mq-topbar {
 /* line 383, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a {
   background: #112e50;
-  color: #ffffff;
+  color: #3E92CC;
 }
 /* line 387, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li.active > a:hover {
@@ -7311,7 +7311,7 @@ meta.foundation-mq-topbar {
 }
 /* line 458, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link a {
-  color: #ffffff;
+  color: #112e50;
   display: block;
 }
 /* line 462, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -7435,7 +7435,7 @@ meta.foundation-mq-topbar {
   /* line 569, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     background: #112e50;
-    color: #ffffff;
+    color: #3E92CC;
     line-height: 3rem;
     padding: 0 1rem;
   }
@@ -7580,7 +7580,7 @@ meta.foundation-mq-topbar {
   /* line 717, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
     background: #112e50;
-    color: #ffffff;
+    color: #3E92CC;
   }
   /* line 725, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -9925,40 +9925,41 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 /* line 388, ../scss/app.scss */
 .bgline {
-  padding: 0 0 3em 0;
+  padding: 1em 0 5em 0;
 }
 /* line 390, ../scss/app.scss */
 .bgline .circle {
-  width: 24px;
-  height: 24px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   background: #ffffff;
   padding: 2px;
   position: relative;
   /* float: none; */
   display: inline-block;
+  border: 1px solid rgba(93, 86, 80, 0.12);
 }
-/* line 400, ../scss/app.scss */
+/* line 401, ../scss/app.scss */
 .bgline::before {
   content: "";
   display: block;
   position: absolute;
   z-index: 0;
-  left: 48%;
+  left: 49%;
   top: 0;
   bottom: 0;
-  border: 2px solid #F6F6F6;
+  border: 1px solid #EFEFEF;
 }
-/* line 410, ../scss/app.scss */
+/* line 411, ../scss/app.scss */
 .bgline.sm {
   padding: 0 0 1.5em 0;
 }
 
-/* line 414, ../scss/app.scss */
+/* line 415, ../scss/app.scss */
 .plist {
   padding: 0;
 }
-/* line 417, ../scss/app.scss */
+/* line 418, ../scss/app.scss */
 .plist .plistli {
   transition: background 0.5s;
   padding-left: 0.9375rem;
@@ -9967,35 +9968,35 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding-bottom: 0.5em;
   border-bottom: 1px solid rgba(93, 86, 80, 0.12);
 }
-/* line 424, ../scss/app.scss */
+/* line 425, ../scss/app.scss */
 .plist .plistli:hover, .plist .plistli:focus {
   background: #F6F6F6;
   transition: background 0.5s;
   cursor: pointer;
 }
-/* line 430, ../scss/app.scss */
+/* line 431, ../scss/app.scss */
 .plist .plistli.nhv:hover, .plist .plistli.nhv:focus {
   background: #ffffff;
   cursor: default;
 }
-/* line 435, ../scss/app.scss */
+/* line 436, ../scss/app.scss */
 .plist .plistli.active {
   background: #F5F5F5;
 }
-/* line 439, ../scss/app.scss */
+/* line 440, ../scss/app.scss */
 .plist .dark {
   background: #112e50;
 }
-/* line 441, ../scss/app.scss */
+/* line 442, ../scss/app.scss */
 .plist .dark h1, .plist .dark h2, .plist .dark h3, .plist .dark h4, .plist .dark h5, .plist .dark h6 {
   color: #ffffff;
 }
-/* line 447, ../scss/app.scss */
+/* line 448, ../scss/app.scss */
 .plist.ulist .plistli:hover, .plist.ulist .plistli:focus {
   cursor: default;
 }
 
-/* line 454, ../scss/app.scss */
+/* line 455, ../scss/app.scss */
 .progress.stripes span.meter {
   background-size: 30px 30px;
   background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -10010,7 +10011,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     background-position: 60px 0;
   }
 }
-/* line 466, ../scss/app.scss */
+/* line 467, ../scss/app.scss */
 .tl-menu li {
   width: 2em;
   height: 2em;
@@ -10023,7 +10024,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   color: white;
   position: relative;
 }
-/* line 482, ../scss/app.scss */
+/* line 483, ../scss/app.scss */
 .tl-menu li::before {
   content: '';
   position: absolute;
@@ -10034,28 +10035,28 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   background: rgba(0, 169, 165, 0.5);
   z-index: -1;
 }
-/* line 494, ../scss/app.scss */
+/* line 495, ../scss/app.scss */
 .tl-menu li:first-child::before {
   display: none;
 }
-/* line 498, ../scss/app.scss */
+/* line 499, ../scss/app.scss */
 .tl-menu .active {
   background: #112e50;
 }
-/* line 500, ../scss/app.scss */
+/* line 501, ../scss/app.scss */
 .tl-menu .active i {
   color: #3E92CC;
 }
-/* line 505, ../scss/app.scss */
+/* line 506, ../scss/app.scss */
 .tl-menu .active ~ li {
   background: #DDDDDD;
 }
-/* line 509, ../scss/app.scss */
+/* line 510, ../scss/app.scss */
 .tl-menu .active ~ li::before {
   background: #EEEEEE;
 }
 
-/* line 514, ../scss/app.scss */
+/* line 515, ../scss/app.scss */
 .tl-menu-l li {
   width: 2em;
   height: 2em;
@@ -10068,7 +10069,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   color: white;
   position: relative;
 }
-/* line 530, ../scss/app.scss */
+/* line 531, ../scss/app.scss */
 .tl-menu-l li::before {
   content: '';
   position: absolute;
@@ -10079,43 +10080,44 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   background: #EEEEEE;
   z-index: -1;
 }
-/* line 540, ../scss/app.scss */
+/* line 541, ../scss/app.scss */
 .tl-menu-l li:first-child::before {
   display: none;
 }
 
-/* line 545, ../scss/app.scss */
+/* line 546, ../scss/app.scss */
 .tl-menu-list li {
   display: inline-block;
   width: 7em;
   text-align: center;
 }
 
-/* line 555, ../scss/app.scss */
+/* line 556, ../scss/app.scss */
 .mmenuli {
   opacity: 0.3;
   transition: all 1s;
 }
-/* line 558, ../scss/app.scss */
+/* line 559, ../scss/app.scss */
 .mmenuli:hover, .mmenuli:focus {
   transition: all 1s;
   opacity: 1;
 }
-/* line 562, ../scss/app.scss */
+/* line 563, ../scss/app.scss */
 .mmenuli.active {
   opacity: 1;
   border-bottom: 3px solid #3E92CC;
 }
-/* line 565, ../scss/app.scss */
+/* line 566, ../scss/app.scss */
 .mmenuli.active i {
   color: #F8BA07;
 }
 
-/* line 572, ../scss/app.scss */
+/* line 573, ../scss/app.scss */
 .nbg .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
+  color: #ffffff;
 }
-/* line 576, ../scss/app.scss */
+/* line 578, ../scss/app.scss */
 .nbg .top-bar-section ul li {
   background: none;
 }
@@ -10134,14 +10136,14 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
        *
        *      SHRINK_TIME = 400ms
        */
-/* line 601, ../scss/app.scss */
+/* line 603, ../scss/app.scss */
 .spinner {
   margin: 10px 20px;
   text-align: center;
   display: inline-block;
 }
 
-/* line 607, ../scss/app.scss */
+/* line 609, ../scss/app.scss */
 .spinner svg {
   background-color: white;
   border-radius: 50%;
@@ -10149,7 +10151,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
-/* line 614, ../scss/app.scss */
+/* line 616, ../scss/app.scss */
 .qp-circular-loader {
   width: 64px;
   /* 2*RADIUS + STROKEWIDTH */
@@ -10158,7 +10160,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   stroke-width: 3px;
 }
 
-/* line 624, ../scss/app.scss */
+/* line 626, ../scss/app.scss */
 .qp-circular-loader-path {
   stroke-dasharray: 58.9;
   /* 2*RADIUS*PI * ARCSIZE/360 */
@@ -10168,7 +10170,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 
 /* SVG elements seem to have a different default origin */
-/* line 634, ../scss/app.scss */
+/* line 636, ../scss/app.scss */
 .qp-circular-loader,
 .qp-circular-loader * {
   -webkit-transform-origin: 50% 50%;
@@ -10192,7 +10194,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     transform: rotate(360deg);
   }
 }
-/* line 659, ../scss/app.scss */
+/* line 661, ../scss/app.scss */
 .qp-circular-loader {
   -webkit-animation-name: rotate;
   animation-name: rotate;
@@ -10284,7 +10286,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     stroke: #ed1b72;
   }
 }
-/* line 765, ../scss/app.scss */
+/* line 767, ../scss/app.scss */
 .qp-circular-loader-path {
   -webkit-animation-name: fillunfill, rot, colors;
   animation-name: fillunfill, rot, colors;
@@ -10301,7 +10303,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   animation-fill-mode: forwards;
 }
 
-/* line 782, ../scss/app.scss */
+/* line 784, ../scss/app.scss */
 .overlay {
   position: absolute;
   top: 0;

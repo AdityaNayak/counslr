@@ -386,26 +386,27 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	box-shadow:0px 0px 1px $lightgrey;
 }
 .bgline{
-	padding:0 0 3em 0;
+	padding:1em 0 5em 0;
 	.circle{
-		width: 24px;
-	    height: 24px;
+		width: 25px;
+	    height: 25px;
 	    border-radius: 50%;
 	    background: $white;
 	    padding: 2px;
 	    position: relative;
 	    /* float: none; */
 	    display: inline-block;
+	    border:1px solid $lightgrey;
 	}
 	&::before{
 		content: "";
         display: block;
         position: absolute;
         z-index: 0;
-        left: 48%;
+        left: 49%;
         top: 0;
         bottom: 0;
-        border: 2px solid $vapor;
+        border: 1px solid $silver;
 	}
 	&.sm{
 		padding:0 0 1.5em 0;
@@ -571,6 +572,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	.top-bar-section {
 		li:not(.has-form) a:not(.button){
 			background:none;
+			color:$white;
 		//	transition:background 1s;
 		}
 	ul li{

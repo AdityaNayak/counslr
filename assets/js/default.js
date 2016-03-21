@@ -29,6 +29,12 @@ $('#login').submit(function(event)
         e.preventDefault();
         $('#timelineview').fadeOut(300);
         $('#singleideaview').delay(300).fadeIn();
+
+        $('#abtn').click(function(){
+            $('#abtn').slideUp(300).delay(300).html("Assign").slideDown();
+            $('.temp1').slideUp();
+            $('.temp2').delay(300).slideDown();
+        });
     });
 });
 
