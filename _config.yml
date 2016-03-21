@@ -3,8 +3,8 @@ title: Innvent Labs
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Innovation at Scale
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: "/innvent/" # the subpath of your site, e.g. /blog/
+url: "http://adityanayak.github.io" # the base hostname & protocol for your site
 twitter_username: innventLabs
 github_username:  innventLabs
 # Build settings
