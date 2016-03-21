@@ -1,0 +1,150 @@
+<footer class="site-footer">
+    <div class="row">
+        <div class="small-3 columns b-ws-top wcolor2 s2 text-right">
+            <img src="http://stockbaypartners.com/sbpg.png" style="height:56px;" class="gs op"> © 2015 Stockbay services Pvt. Ltd.
+        </div>
+        <!-- <div class="small-3 columns b-ws-top">
+            <h5>Reach us</h5>
+            <ul class="naked scolor">
+                <li>hi@invventlabs.com</li>
+                
+            </ul>
+        </div> -->
+        <!-- <div class="small-3 columns b-ws-top">
+            <h5>Social</h5>
+            <ul class="naked scolor">
+                <li><a href="https://www.facebook.com/innventlabs/" class="scolor" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/innventlabs" class="scolor" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/innventlabs" class="scolor" target="_blank">Linked In</a></li>
+            </ul>
+        </div>
+        <div class="small-3 columns b-ws-top">
+            <h5>Legal</h5>
+            <ul class="naked scolor">
+                <li><a href="{{site.url}}{{site.baseurl}}/tos.html" class="scolor">Terms of Service</a></li>
+                <li><a href="{{site.url}}{{site.baseurl}}/privacy.html" class="scolor">Privacy policy</a></li>
+                <li>Sitemap</li>
+            </ul>
+        </div> -->
+    </div>
+</footer>
+<div id="signupModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <form id="signup" name="signup">
+        <div class="lhide">
+            <label>Your Name</label>
+            <input type="text" id="sname" placeholder="Choose something recognisable" />
+        </div>
+        <label>Your Email</label>
+        <input type="email" id="semail" placeholder="Preferably use company email" required />
+        <div class="lhide">
+            <!--   <label>Company</label>
+    <input list="companies" autocomplete="off" type="text" id="scomp" placeholder="Choose your company or add a new one"  /> -->
+        </div>
+        <div class="fhide">
+            <label>Choose a new Password</label>
+            <input type="password" class="addpasswordanim" id="addPassword" placeholder="Should be atleast 8 characters" />
+        </div>
+        <div class="hide" id="confirmPassword">
+            <label>Confirm password</label>
+            <input type="password" id="confirmPass" placeholder="Re-enter the password" />
+            <div class="scolor2 s2"><input type="checkbox" class="nm" required checked><span class="s-ws-left" style="line-height:1;">By signing up for houseafic.com you agree to our <a href="{{site.url}}{{site.baseurl}}/tos.html" target="_blank">terms of service</a> and <a href="{{site.url}}{{site.baseurl}}/privacy.html" target="_blank">privacy policy</a></span></div>
+        </div>
+        <div class="m-ws-top">
+            <input type="submit" id="signupBtn" class="button fullwidth small nm" value="Create a new free account">
+        </div>
+    </form>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+<div id="newideaModal" class="reveal-modal large" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <form id="newidea" name="newidea">
+    
+    <div class="row">
+        <div class="small-8 columns">
+    <fieldset>
+        <legend>About the idea</legend>
+            <label>Idea title</label>
+            <input type="text" id="sname" placeholder="for eg. Improving the photocopier effeciency" />
+        <label>Idea details</label>
+        <textarea placeholder="Be concise. not more than 100 words" rows="6" class="nm"></textarea>
+        </fieldset>
+
+          <div class="row">
+            <div class="small-5 columns s-ws-top">
+              <label for="right-label" class="right inline">This idea has most impact on</label>
+            </div>
+            <div class="small-7 columns s-ws-top">
+              <select>
+                  <option value="volvo">Cost</option>
+                  <option value="saab">Controls</option>
+                  <option value="mercedes">Mercedes</option>
+                  <option value="audi">Audi</option>
+                </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-5 columns s-ws-top">
+              <label for="right-label" class="right inline">If this idea was to executed, it would be</label>
+            </div>
+            <div class="small-7 columns s-ws-top">
+              <select>
+                  <option value="volvo">Simple</option>
+                  <option value="saab">Medium</option>
+                  <option value="mercedes">Hard</option>
+                </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-5 columns s-ws-top">
+              <label for="right-label" class="right inline">The idea could be implemented in</label>
+            </div>
+            <div class="small-7 columns s-ws-top">
+              <select>
+                  <option value="volvo"> less than 30 days</option>
+                  <option value="saab"> 30-60 days</option>
+                  <option value="mercedes">60-90 days</option>
+                </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-5 columns s-ws-top">
+              <label for="right-label" class="right inline">Can you implement this yourself?</label>
+            </div>
+            <div class="small-7 columns s-ws-top">
+              
+      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Yes</label>
+      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">No</label>
+    
+            </div>
+          </div>
+        
+    
+    
+</div>
+</div>
+<div class="row">
+    <div class="small-12 columns text-right">
+            <input type="submit" id="signupBtn" class="button small nm" value="Submit idea">
+    </div>
+</div>
+</form>
+<a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+
+<div id="loginModal" class="reveal-modal tiny" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+    <form id="login" name="login">
+        <label>Your Company Email</label>
+        <input type="email" id="semail2" placeholder="Use company email" required />
+        <div class="fhide">
+            <label>Your innvent Password</label>
+            <input type="password" class="addpasswordanim" id="addPassword2" placeholder="Should be atleast 8 characters" />
+        </div>
+        <div class="text-right s-ws-bottom fhide">
+            <a href="#" id="fpass">Forgot password?</a>
+        </div>
+        <div class="m-ws-top">
+            <input type="submit" id="loginBtn" class="button fullwidth small nm" value="Login">
+        </div>
+    </form>
+    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>

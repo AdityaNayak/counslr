@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<!-- <body style="background:url('./assets/images/home-bg.jpg') no-repeat; background-size:cover; "> -->
+<body>
+    <!-- <video id="landing-video" class="video scale manual" autoplay  loop poster="./assets/images/landing.jpg" style="width: 100%;  left: 0px; top: 0px; position:absolute; z-index:-99">
+        <source src="./assets/video/landing.mp4" type="video/mp4">
+        <source src="./assets/video/landing.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video> -->
+
+      <div id="hout" >
+        {% include header-out.html %}
+      </div>
+      <div id="hin" style="display: none;">
+        {% include header.html %}
+      </div>
+      <div id="landingview" style="display: none;">
+        <div id="pbg" style="background-image:url('../assets/images/cover.jpg'); background-repeat:no-repeat; background-color: rgba(0,0,0,0.7); background-size:cover; background-position:center;">
+          <div class="row">
+            <div class="small-12 columns text-center" style="margin-top:10em; margin-bottom:15em;">
+              <img src="{{site.url}}{{site.baseurl}}/assets/images/logo-white.png" style="height:108px; margin-bottom:5em;" class="s-ws-top">
+              <h2 class="wc"><div class="f-1-5x">Driving Innovation at Scale</div></h2>
+              <h4 class="f-l wcolor2"><span class="f-1-25x">Align your complete organisation into staying ahead of the curve</span></h4>
+              <!-- <h2 class="wc f-l"><span class="f-2x">Real estate Intelligence. <span class="scolor2">Simplified.</span></h2> -->
+              <div class="b-ws-top"><a class="button small  success" href="#" data-reveal-id="loginModal">Get started for Free <i class="icon-lock s-ws-left"></i></a></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="timelineview">
+        <div class="row">
+          <div class="small-3 columns b-ws-top">
+            <div class="row">
+              <div class="small-4 columns">
+                <img src="https://randomuser.me/api/portraits/med/women/93.jpg" class="circle-img fullwidth profileimg">    
+              </div>
+              <div class="small-8 columns s-ws-top">
+                <h6 class="nm">Sonia Puri</h6>
+                <p class="scolor">Account Manager</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="small-6 columns b-ws-top">
+            <div class="panel">
+              <div class="row">
+                <div class="small-1 columns">
+                  <i class="icon-idea yc f-1-5x"></i>
+                </div>
+                <div class="small-9 columns">
+                  <h5>Idea title which is slightly longer and then a lot longer <span class="btn tiny"><a class="siv scolor2 xs-ws-left">View Idea <i class="icon-right s2"></i></span></a></h5>
+                </div>
+                <div class="small-2 end columns scolor2 text-right s2"> <i class="icon-clock"></i>10 min ago</div>
+              </div>
+              <div class="row"> <div class="small-12 columns s-ws-top"><div class="flex-video"> <iframe width="560" height="315" src="https://www.youtube.com/embed/BbqUZ0p6Ntw?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div> </div></div>
+              <div class="row"><div class="small-2 columns"><img src="https://randomuser.me/api/portraits/med/women/48.jpg" class="circle-img"></div> <div class="small-10 columns s-ws-top"> <h6 class="scolor nm">Rajesh Rishi</h6><div class="s2 scolor2 xs-ws-top"><i class="icon-location"></i>Business associate</div></div>  </div>  </div>
+            </div>
+            <div class="small-3 b-ws-top columns">
+              <h5>Your ideas</h5>
+              <h7>Current Ideas</h7>
+              <div class="plist">
+                <div class="plistli">
+                  <h6 class="nm"><small>#123</small> Idea title 1 <small class="right"><i class="icon-right" style="line-height: 1.5"></i></small></h6>
+                </div>
+                <div class="plistli">
+                  <h6 class="nm"><small>#13</small> Idea title 2 <small class="right"><i class="icon-right" style="line-height: 1.5"></i></small></h6>
+                </div>
+                <div class="plistli">
+                  <h6 class="nm"><small>#43</small> Idea title 3 <small class="right"><i class="icon-right" style="line-height: 1.5"></i></small></h6>
+                </div>
+              </div>
+              <h7>Past Ideas</h7>
+              <div class="scolor2 s s-ws-top">No ideas yet</div>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="dashboardview" style="display: none;">
+          <div class="row">
+            <div class="small-3 columns b-ws-top b-ws-top-p">
+              <div class="row">
+                <div class="small-4 columns">
+                  <img src="https://randomuser.me/api/portraits/med/women/93.jpg" class="circle-img fullwidth profileimg">    
+                </div>
+                <div class="small-8 columns s-ws-top">
+                  <h6 class="nm">Sonia Puri</h6>
+                  <p class="scolor">Account Manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="small-6 columns b-ws-top b-ws-top-p">
+              <div class="panel">
+              
+              <div class="row">
+                <div class="small-3 columns">
+                  <div class="row collapse">
+                    <div class="small-4 columns">
+                      <i class="f-2x yc icon-idea"></i>
+                    </div>
+                    <div class="small-8 columns">
+                      <div class="f-1-25x">342</div>
+                      <div class="s2 scolor2">Open Ideas</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-3 columns">
+                  <div class="row collapse">
+                    <div class="small-4 columns">
+                      <i class="f-2x bgc icon-idea"></i>
+                    </div>
+                    <div class="small-8 columns">
+                      <div class="f-1-25x">342</div>
+                      <div class="s2 scolor2">Ideas under implementation</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-3 columns">
+                  <div class="row collapse">
+                    <div class="small-4 columns">
+                      <i class="f-2x gc icon-idea"></i>
+                    </div>
+                    <div class="small-8 columns">
+                      <div class="f-1-25x">342</div>
+                      <div class="s2 scolor2">Implemented ideas</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-3 columns">
+                  <div class="row collapse">
+                    <div class="small-4 columns">
+                      <i class="f-2x rc icon-idea"></i>
+                    </div>
+                    <div class="small-8 columns">
+                      <div class="f-1-25x">342</div>
+                      <div class="s2 scolor2">Rejected Ideas</div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="small-3 columns b-ws-top b-ws-top-p">
+              <h7>Trending Ideas</h7>
+              <div class="plist">
+                <div class="plistli">
+                  <h6 class="nm"><small>#123</small> Idea title 1 <small class="right"><i class="icon-right" style="line-height: 1.5"></i></small></h6>
+                </div>
+                <div class="plistli">
+                  <h6 class="nm"><small>#13</small> Idea title 2 <small class="right"><i class="icon-right" style="line-height: 1.5"></i></small></h6>
+                </div>
+                <div class="plistli">
+                  <h6 class="nm"><small>#43</small> Idea title 3 <small class="right"><i class="icon-right" style="line-height: 1.5"></i></small></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="singleideaview" style="display:none;">
+          <div class="row">
+            <div class="small-2 columns b-ws-top text-right">
+              <div class="row">
+                <div class="small-5 columns b-ws-top">
+                  &nbsp;
+                </div>
+                <div class="small-7 columns b-ws-top">
+                  <img src="https://randomuser.me/api/portraits/med/women/48.jpg" class="circle-img">
+                </div>
+                <div class="small-12 columns s-ws-top"><h5 class="nm">Rajesh Rishi</h5><div class="s2 scolor2 xs-ws-top"><i class="icon-location"></i>Business associate</div></div></div>
+
+                <div>ID: #321</div>
+                <div> 10 minutes ago</div>
+
+              </div>
+              <div class="small-8 columns b-ws-top">
+                <div class="panel">
+                  <div class="row">
+                    <div class="small-1 columns">
+                      <i class="icon-idea yc f-3x"></i>
+                    </div>
+                    <div class="small-11 columns">
+                      <h2>Idea title which is slightly longer and then a lot longer </h2>
+                    </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="small-12 columns">
+                      <p>Some text about the idea. We are going to change the world. Give this a thought. 10 years ago, Mankind reached the moon. It was not a coincidence but a result of a audacity, grit and determination that consumed everyone and enabled us to achieve that goal. BUt where did it go? The farthest our imaginations go today are to fill 140 characters. Our smartest minds are helping deliver groceries at our doorstep. 
+                      </p>
+                      <p>We can definately do better. We deserve better. Change is coming. It is time.</p>
+                    </div>
+                  </div>
+                  <div class="row"> <div class="small-12 columns s-ws-top"><div class="flex-video"> <iframe width="560" height="315" src="https://www.youtube.com/embed/BbqUZ0p6Ntw?controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div> </div></div>
+                </div>
+              </div>
+              <div class="small-2 b-ws-top columns">
+                <div class="button small fullwidth b-ws-top">Approve</div>
+              </div>
+            </div>
+          </div>
+
+          {% include footer.html %}
+
+          <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/foundation/js/foundation.min.js"></script>
+
+          <script src="{{site.url}}{{site.baseurl}}/assets/js/app.js"></script>
+          <script src="{{site.url}}{{site.baseurl}}/assets/js/default.js"></script>
+        </body>
+
+        </html>
+
+

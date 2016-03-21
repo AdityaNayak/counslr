@@ -1,0 +1,790 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600);
+
+@import "settings";
+@import "foundation";
+
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.main{
+	min-height:700px;
+}
+.nbg{
+	background:none !important;
+	transition: background 1s;
+}
+.top-bar{
+	transition:background 1s;
+}
+.top-bar-section {
+		li:not(.has-form) a:not(.button){
+			background:none;
+			transition:background 1s;
+		}
+	ul li{
+		background:none;
+		transition:background 1s;
+		}
+	}
+.contain-to-grid{
+	transition:background 1s;
+	border-bottom:2px solid $lightgrey;
+}
+.nm{
+	margin:0 !important;
+}
+.np{
+	padding:0 !important;
+}
+.gs { 
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(grayscale.svg#greyscale); /* Firefox 4+ */
+  filter: gray; /* IE 6-9 */
+}
+.cimg{
+	-webkit-filter: brightness(0.5);
+  -moz-filter: brightness(0.5);
+  -ms-filter: brightness(0.5);
+  -o-filter: brightness(0.5);
+  filter: brightness(0.5);
+}
+.op{
+	opacity:0.3;
+	transition:opacity 0.5s;
+	&.hv:hover,&.hv:focus{
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+}
+.op7{
+	opacity:0.7;
+	transition:opacity 0.5s;
+	&.hv:hover,&.hv:focus{
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+}
+.op1{
+	opacity:0.1;
+}
+.naked{
+	list-style:none;
+	margin-left:0;
+}
+.fullwidth{
+	width:100%;
+}
+.circle-img{
+	border-radius:50%;
+}
+.img-h{
+	width:50%;
+}
+.xs-ws-top{
+	margin-top:0.5em;
+}
+.xs-ws-left{
+	margin-left:0.5em;
+}
+.s-ws-left{
+	margin-left:1em;
+}
+.s-ws-left-p{
+	padding-left:1em;
+}
+.xs-ws-right{
+	margin-right:0.5em;
+}
+.s-ws-right{
+	margin-right:1em;
+}
+.s-ws-right-p{
+	padding-right:1em;
+}
+.s-ws-top{
+	margin-top:1em;
+}
+.m-ws-top{
+	margin-top:2em;
+}
+.b-ws-top{
+	margin-top:3em;
+}
+.s-ws-bottom{
+	margin-bottom:1em;
+}
+.m-ws-bottom{
+	margin-bottom:2em;
+}
+.b-ws-bottom{
+	margin-bottom:3em;
+}
+.s-ws-top-p{
+	padding-top:1em;
+}
+.m-ws-top-p{
+	padding-top:2em;
+}
+.b-ws-top-p{
+	padding-top:3em;
+}
+.s-ws-bottom-p{
+	padding-bottom:1em;
+}
+.m-ws-bottom-p{
+	padding-bottom:2em;
+}
+.b-ws-bottom-p{
+	padding-bottom:3em;
+}
+// .bbr{
+// 	border:2px solid $darkblue;
+// }
+// .blc{
+// 	color: $black !important;
+// }
+.wbr{
+	border-color:$white !important;
+}
+.yc{
+	color:$yellow !important;
+}
+.gc{
+ 	color:$success-color !important;
+ }
+.rc{
+	color:$red !important;
+}
+.bc{
+	color:$lightblue !important;
+}
+.dbc{
+	color:$darkblue !important;
+}
+.bgc{
+	color:$bluegreen !important;
+}
+.wc{
+	color:$white !important;
+}
+.wbg{
+	background:$white !important;
+}
+.lwbg{
+	background:rgba($white,0.87) !important;
+}
+.scolor3bg{
+	background:rgba($black,0.26) !important;
+}
+ // .bbg{
+// 	background:$blue !important;
+// }
+// .lbbg{
+// 	background:$blue !important;
+// }
+.bkbg{
+	background:$jet !important;
+}
+.bgbg{
+	background:$bluegreen !important;
+}
+.dbbg{
+	background:$darkblue !important;
+}
+.lgbg{
+	background:$snow !important;
+}
+.scolor{
+	color:rgba($black,0.76);
+}
+.scolor2{
+	color:rgba($black,0.54);
+}
+.scolor3{
+	color:rgba($black,0.26);
+}
+.scolor4{
+	color:rgba($black,0.12);
+}
+.wcolor{
+	color:rgba($white,0.81);
+}
+.wcolor2{
+	color:rgba($white,0.64);
+}
+.wcolor3{
+	color:rgba($white,0.48);
+}
+.s{
+	font-size:0.85em;
+}
+.s2{
+	font-size:0.72em;
+}
+.s3{
+	font-size:0.5em;
+}
+
+.f-1-5x{
+	font-size:1.5em;
+}
+.f-1-25x{
+	font-size:1.25em;
+}
+.f-2x{
+	font-size:2em;
+}
+.f-2-5x{
+	font-size:2.5em;
+}
+.f-3x{
+	font-size:3em;
+}
+.f-4x{
+	font-size:4em;
+}
+.f-l{
+	font-weight:400;
+}
+.cs{
+	cursor:pointer;
+	transition: color 0.5s;
+	&:hover, &:focus{
+		color:$darkblue;
+		transition: color 0.5s;
+	}
+}
+
+.button{
+	text-transform: uppercase;
+	border-radius:$global-radius;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"],input[type="submit"], input[type="url"], input[type="color"], textarea{
+	border-radius:$global-radius;
+}
+
+.btn{
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:14px;
+	&.disabled{
+		cursor: default;
+		color:rgba($lightblue,0.6);
+	}
+}
+.tbtn{
+	border:1px solid $lightgrey;
+	border-radius:3px;
+	padding:0.25em 0.5em;
+	transition: background 1s;
+	margin-right:0.5em;
+	&.cs{
+		&:hover{
+		pointer:cursor;
+		background:$lightgrey;
+		transition: background 1s;
+		}	
+	}
+	
+
+	&.selected{
+		background: $bluegreen;
+	}
+}
+
+.panel{
+	border-radius: $global-radius;
+	&.h{
+		padding-top:0.5em;
+	}
+}
+.sub-nav dt, .sub-nav dd, .sub-nav li{
+	//background:#333;
+	text-transform:uppercase;
+	font-weight:600;
+	
+	&.active{
+		a{
+			color:$black;
+		}
+	}
+	>a {
+		transition:color 0.5s;
+		&:hover,&:focus{
+		color: $black;
+		transition:color 0.5s;
+		}
+	}
+}
+.tabs dd, .tabs .tab-title{
+	& >a{
+	border-bottom:3px solid $lightgrey;
+	text-transform:uppercase;
+	font-weight:600;
+	transition: all 0.5s;
+		&:hover,&:focus{
+		border-bottom:3px solid $lightblue;
+		color:$black;
+		outline: none;
+		transition: all 0.5s;
+		}
+	}
+	&.active a{
+		border-bottom:3px solid $darkblue;
+	}
+
+}
+.fixedbottom{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    left: 0;
+}
+.profileimg{
+	border:3px solid $white;
+	box-shadow:0px 0px 1px $lightgrey;
+}
+.bgline{
+	padding:0 0 3em 0;
+	.circle{
+		width: 24px;
+	    height: 24px;
+	    border-radius: 50%;
+	    background: $white;
+	    padding: 2px;
+	    position: relative;
+	    /* float: none; */
+	    display: inline-block;
+	}
+	&::before{
+		content: "";
+        display: block;
+        position: absolute;
+        z-index: 0;
+        left: 48%;
+        top: 0;
+        bottom: 0;
+        border: 2px solid $vapor;
+	}
+	&.sm{
+		padding:0 0 1.5em 0;
+	}
+}
+.plist{
+	@extend .panel;
+	padding:0;
+	.plistli{
+		transition: background 0.5s;
+		padding-left:$panel-padding;
+		padding-right:$panel-padding;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		border-bottom:1px solid $lightgrey;
+		&:hover,&:focus{
+			background:$vapor;
+			transition: background 0.5s;
+			cursor: pointer;
+		}
+		&.nhv{
+			&:hover, &:focus{
+				background:$white;
+				cursor: default;
+			}
+		}
+		&.active{
+			background:$white-smoke;
+		}
+	}
+	.dark{
+		background: $darkblue;
+		h1,h2,h3,h4,h5,h6{
+			color:$white;
+		}
+	}
+	&.ulist{
+		.plistli{
+			&:hover,&:focus{
+				cursor: default;
+			}
+		}
+	}
+}
+
+.progress.stripes span.meter{
+	background-size: 30px 30px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+                        transparent 75%, transparent);            
+    
+    animation: animate-stripes 3s linear infinite;
+}
+@keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+.tl-menu{
+	li {
+	  width: 2em;
+	  height: 2em;
+	  text-align: center;
+	  line-height: 2.3;
+	  border-radius: 50%;
+	  background: $bluegreen;
+	  margin: 0 2.5em;
+	  display: inline-block;
+	  color: white;
+	  position: relative;
+	  i{
+	  	@extend .scolor3;
+	  }
+	}
+
+	li::before{
+	  content: '';
+	  position: absolute;
+	  top: .9em;
+	  left: -9em;
+	  width: 10em;
+	  height: .2em;
+	  background: rgba($bluegreen,0.5);
+	  z-index: -1;
+	}
+
+
+	li:first-child::before {
+	  display: none;
+	}
+
+	.active {
+	  background: $darkblue;
+	  i{
+	  	color:$lightblue;
+	  }
+	}
+
+	.active ~ li {
+	  background: $gainsboro;
+	}
+
+	.active ~ li::before {
+	  background: $smoke;
+	}
+}
+.tl-menu-l{
+	li {
+	  width: 2em;
+	  height: 2em;
+	  text-align: center;
+	  line-height: 2.3;
+	  border-radius: 50%;
+	  background: $smoke;
+	  margin: 0 6.9%;
+	  display: inline-block;
+	  color: white;
+	  position: relative;
+	  i{
+	  	@extend .scolor3;
+	  }
+	}
+
+	li::before{
+	  content: '';
+	  position: absolute;
+	  top: .9em;
+	  left: -12em;
+	  width: 12em;
+	  height: .2em;
+	  background: $smoke;
+	  z-index: -1;
+	}
+	li:first-child::before {
+	  display: none;
+	}
+}
+.tl-menu-list{
+	li{
+		display: inline-block;
+		width:7em;
+		text-align: center;
+	}
+}
+
+.mmenu{
+
+}
+.mmenuli{
+	opacity:0.3;
+	transition:all 1s;
+	&:hover,&:focus{
+		transition:all 1s;
+		opacity: 1;
+	}
+	&.active{
+		opacity: 1;
+		border-bottom:3px solid $lightblue;
+		i{
+			color:$yellow;
+		}
+	}
+}
+.nbg{
+	.top-bar-section {
+		li:not(.has-form) a:not(.button){
+			background:none;
+		//	transition:background 1s;
+		}
+	ul li{
+		background:none;
+		//transition:background 1s;
+		}
+	}
+}
+
+
+
+
+/*
+       * Constants:
+       *      RADIUS      = 12.5
+       *      STROKEWIDTH = 3
+       *      ARCSIZE     = 270 degrees (amount of circle the arc takes up)
+       *      ARCTIME     = 1333ms (time it takes to expand and contract arc)
+       *      ARCSTARTROT = 216 degrees (how much the start location of the arc
+       *                                should rotate each time, 216 gives us a
+       *                                5 pointed star shape (it's 360/5 * 2).
+       *                                For a 7 pointed star, we might do
+       *                                360/7 * 3 = 154.286)
+       *
+       *      SHRINK_TIME = 400ms
+       */
+ 
+ .spinner {
+  margin: 10px 20px;
+  text-align: center;
+  display: inline-block;
+ }
+ 
+ .spinner svg {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 8px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+ }
+ 
+ .qp-circular-loader {
+  width: 64px;
+  /* 2*RADIUS + STROKEWIDTH */
+  
+  height: 64px;
+  /* 2*RADIUS + STROKEWIDTH */
+  
+  stroke-width: 3px;
+ }
+ 
+ .qp-circular-loader-path {
+  stroke-dasharray: 58.9;
+  /* 2*RADIUS*PI * ARCSIZE/360 */
+  
+  stroke-dashoffset: 58.9;
+  /* 2*RADIUS*PI * ARCSIZE/360 */
+  /* hides things initially */
+ }
+ /* SVG elements seem to have a different default origin */
+ 
+ .qp-circular-loader,
+ .qp-circular-loader * {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+ }
+ /* Rotating the whole thing */
+ 
+ @-webkit-keyframes rotate {
+  from {
+   -webkit-transform: rotate(0deg);
+  }
+  to {
+   -webkit-transform: rotate(360deg);
+  }
+ }
+ 
+ @keyframes rotate {
+  from {
+   transform: rotate(0deg);
+  }
+  to {
+   transform: rotate(360deg);
+  }
+ }
+ 
+ .qp-circular-loader {
+  -webkit-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 1568.63ms;
+  animation-duration: 1568.63ms;
+  /* 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
+  
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+ }
+ /* Filling and unfilling the arc */
+ 
+ @-webkit-keyframes fillunfill {
+  from {
+   stroke-dashoffset: 58.8
+   /* 2*RADIUS*PI * ARCSIZE/360 - 0.1 */
+   /* 0.1 a bit of a magic constant here */
+  }
+  50% {
+   stroke-dashoffset: 0;
+  }
+  to {
+   stroke-dashoffset: -58.4
+   /* -(2*RADIUS*PI * ARCSIZE/360 - 0.5) */
+   /* 0.5 a bit of a magic constant here */
+  }
+ }
+ 
+ @keyframes fillunfill {
+  from {
+   stroke-dashoffset: 58.8
+   /* 2*RADIUS*PI * ARCSIZE/360 - 0.1 */
+   /* 0.1 a bit of a magic constant here */
+  }
+  50% {
+   stroke-dashoffset: 0;
+  }
+  to {
+   stroke-dashoffset: -58.4
+   /* -(2*RADIUS*PI * ARCSIZE/360 - 0.5) */
+   /* 0.5 a bit of a magic constant here */
+  }
+ }
+ 
+ @-webkit-keyframes rot {
+  from {
+   -webkit-transform: rotate(0deg);
+  }
+  to {
+   -webkit-transform: rotate(-360deg);
+  }
+ }
+ 
+ @keyframes rot {
+  from {
+   transform: rotate(0deg);
+  }
+  to {
+   transform: rotate(-360deg);
+  }
+ }
+ 
+ @-webkit-keyframes colors {
+  0% {
+   stroke: #754fa0;
+  }
+  20% {
+   stroke: #09b7bf;
+  }
+  40% {
+   stroke: #90d36b;
+  }
+  60% {
+   stroke: #f2d40d;
+  }
+  80% {
+   stroke: #fcb12b;
+  }
+  100% {
+   stroke: #ed1b72;
+  }
+ }
+ 
+ @keyframes colors {
+  0% {
+   stroke: #754fa0;
+  }
+  20% {
+   stroke: #09b7bf;
+  }
+  40% {
+   stroke: #90d36b;
+  }
+  60% {
+   stroke: #f2d40d;
+  }
+  80% {
+   stroke: #fcb12b;
+  }
+  100% {
+   stroke: #ed1b72;
+  }
+ }
+ 
+.qp-circular-loader-path {
+-webkit-animation-name: fillunfill, rot, colors;
+animation-name: fillunfill, rot, colors;
+-webkit-animation-duration: 1333ms, 5332ms, 5332ms;
+animation-duration: 1333ms, 5332ms, 5332ms;
+/* ARCTIME, 4*ARCTIME, 4*ARCTIME */
+
+-webkit-animation-iteration-count: infinite, infinite, infinite;
+animation-iteration-count: infinite, infinite, infinite;
+-webkit-animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1), steps(4), linear;
+animation-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1), steps(4), linear;
+-webkit-animation-play-state: running, running, running;
+animation-play-state: running, running, running;
+-webkit-animation-fill-mode: forwards;
+animation-fill-mode: forwards;
+}
+
+.overlay{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    z-index: 1;
+}
