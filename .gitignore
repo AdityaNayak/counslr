@@ -3,6 +3,5 @@ _site
 
 /assets/.sass-cache/*
 *.DS_Store
-_config.yml
 .ruby-gemset
 .ruby-version
