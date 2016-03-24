@@ -17,7 +17,7 @@
       <div id="hin" style="display: none;">
         {% include header.html %}
       </div>
-      <div id="landingview" >
+      <div id="landingview" style="display: none;">
         <div id="pbg" style="background-image:url('../assets/images/cover.jpg'); background-repeat:no-repeat; background-color: rgba(0,0,0,0.7); background-size:cover; background-position:center;">
           <div class="row">
             <div class="small-12 columns text-center" style="margin-top:10em; margin-bottom:15em;">
@@ -29,6 +29,244 @@
             </div>
 
           </div>
+        </div>
+      </div>
+      <div id="cockpitview">
+        <div class="row">
+          <div class="small-3 columns b-ws-top b-ws-top-p">
+            <div class="row">
+              <div class="small-5 columns">
+                <img src="https://randomuser.me/api/portraits/med/women/93.jpg" class="circle-img fullwidth profileimg">    
+              </div>
+              <div class="small-7 columns s-ws-top">
+                <h6 class="nm">Sonia Puri</h6>
+                <p class="scolor">CEO</p>
+              </div>
+            </div>
+            <hr>
+            <div class="row collapse">
+              <div class="small-4 columns s-ws-top">
+                <span class="s">Cost saved</span>
+              </div>
+              <div class="small-2 columns xs-ws-top">
+                <i class="icon-rupee f-2x bgc"></i>
+              </div>
+              <div class="small-6 columns">
+                <span class="f-2x">1.2 <span class="s3 scolor">crores</span></span>
+              </div>
+            </div>
+            <div class="row collapse">
+              <div class="small-4 columns s-ws-top">
+                <span class="s">System Health</span>
+              </div>
+              <div class="small-2 columns xs-ws-top">
+                <i class="icon-stethoscope f-2x bc"></i>
+              </div>
+              <div class="small-6 columns s-ws-top">
+                At par <span class="scolor2 s2">with competition</span>
+              </div>
+            </div>
+            <div class="row collapse">
+              <div class="small-4 columns s-ws-top">
+                <span class="s">Organisation</span>
+              </div>
+              <div class="small-2 columns xs-ws-top">
+                <i class="icon-building f-2x dbc"></i>
+              </div>
+              <div class="small-6 columns xs-ws-top">
+                <span class="f-1-5x">123<span class="s2 scolor">/160</span><span class="s3 scolor"> Active</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="small-9 columns b-ws-top b-ws-top-p">
+            <div class="row">
+              <div class="small-3 columns small-offset-9">
+                <div class="panel scolor cs s" style="padding:0.5em;">
+                  <i class="icon-calendar scolor2 xs-ws-right"></i> Last 30 days </i>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="row">
+                <div class="small-6 columns">
+                  <h5>Pulse</h5>
+                </div>
+                <div class="small-2 columns s2 scolor2">
+                  Behind the industry <i class="icon-circle-full rc right"></i>
+                </div>
+                <div class="small-2 columns s2 scolor2">
+                  At par industry <i class="icon-circle-full yc right"></i>
+                </div>
+                <div class="small-2 columns s2 scolor2">
+                  Better than industry <i class="icon-circle-full gc right"></i>
+                </div>
+              </div>
+              <div class="row">
+                <div class="small-12 columns">
+                  <hr style="margin-top: 0.25em;">
+                </div>
+              </div>
+              <div class="row">
+                <div class="small-3 columns text-center">
+                  <div class="row">
+                    <div class="small-8 columns small-centered">
+                      <div id="kpi1">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="scolor2 s-ws-top">Ideas per person</div>
+                </div>
+                <div class="small-3 columns text-center">
+                  <div class="row">
+                    <div class="small-8 columns small-centered">
+                      <div id="kpi2">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="scolor2 s-ws-top">Implementation rate</div>
+                </div>
+                <div class="small-3 columns text-center">
+                  <div class="row">
+                    <div class="small-8 columns small-centered">
+                      <div id="kpi3">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="scolor2 s-ws-top">Idea Activation time</div>
+                </div>
+                <div class="small-3 columns text-center">
+                  <div class="row">
+                    <div class="small-8 columns small-centered">
+                      <div id="kpi4">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="scolor2 s-ws-top">Ideas due deletion</div>
+                </div>
+              </div>
+            </div>
+            <div class="panel">
+              <h5>Action today</h5>
+              <hr>
+              <div class="panel" id="ctapanel" style="background:#eee">
+                <span class="scolor2">You need to</span> send cheer <i class="icon-thumbs-o-up gc xs-ws-right"></i> <span class="scolor2">to</span> <img src="https://randomuser.me/api/portraits/med/women/7.jpg" width="32px" class="circle-img profileimg s-ws-left xs-ws-right"> Sandhya Seth <span class="scolor2">and her Business excellence team </span> <a class="button tiny right" id="tempbutton">Send cheer</a>
+              </div>
+              <div id="ctapanel2" style="display:none;">
+                <div class="f-1-2-5x scolor">Done! Thats all that is needed from you today :) <i class="icon-check-circle gc"></i></div>
+              </div>
+            </div>
+            <div class="panel">
+
+              <ul class="tabs" data-tab>
+                <li class="tab-title active"><a href="#panel1">Overview</a></li>
+                <li class="tab-title"><a href="#panel2">Analysis</a></li>
+                <li class="tab-title"><a href="#panel3">Pending</a></li>
+                <li class="tab-title"><a href="#panel4">Idea map</a></li>
+              </ul>
+              <div class="tabs-content">
+                <div class="content active" id="panel1">
+                  <table style="border-spacing: 0; border:0;">
+                    <thead>
+                      <tr>
+                        <th width="300">Business Units</th>
+                        <th width="150">Ideas/person</th>
+                        <th width="150">Implementation rate</th>
+                        <th width="150">Costs saved</th>
+                        <th width="150">Ideas pending </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>Marketing</strong></td>
+                        <td class="scolor">1.6</td>
+                        <td class="scolor">54%</td>
+                        <td class="scolor">32 lakhs</td>
+                        <td class="scolor">12</td>
+                      </tr>
+                      <tr>
+                        <td><strong>Business Excellence</strong></td>
+                        <td class="scolor">2.2</td>
+                        <td class="scolor">67%</td>
+                        <td class="scolor">3 lakhs</td>
+                        <td class="scolor">1</td>
+                      </tr>
+                      <tr>
+                        <td><strong>PR</strong></td>
+                        <td class="scolor">3.2</td>
+                        <td class="scolor">42%</td>
+                        <td class="scolor">12 lakhs</td>
+                        <td class="scolor">43</td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+                <div class="content" id="panel2">
+                  <p>Coming soon</p>
+                </div>
+                <div class="content" id="panel3">
+                  <p>Coming soon</p>
+                </div>
+                <div class="content" id="panel4">
+                  <p>Coming soon</p>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="panel">
+              <h5>Idea stages</h5>
+              <hr>
+              <div class="row text-center">
+                <div class="small-2 small-offset-1 columns scolor">
+                  <div class="f-2x yc">120</div>
+                  Total Submitted
+                </div>
+                <div class="small-1 columns s-ws-top">
+                  <i class="icon-equal scolor2"></i>
+                </div>
+                <div class="small-2 columns scolor">
+                  <div class="f-2x bgc">10</div>
+                  With Reviewer
+                </div>
+                <div class="small-1 columns xs-ws-top">
+                  <i class="icon-plus scolor2 f-2x"></i>
+                </div>
+                <div class="small-2 columns scolor">
+                  <div class="f-2x bc">80</div>
+                  With Implementor
+                </div>
+                <div class="small-1 columns xs-ws-top">
+                  <i class="icon-plus scolor2 f-2x"></i>
+                </div>
+                <div class="small-2 columns scolor">
+                  <div class="f-2x dbc">30</div>
+                  With Validator
+                </div>
+              </div>
+              <h5>Pending Ideas</h5>
+              <hr>
+              <div class="row text-center">
+                <div class="small-3 columns scolor">
+                  <div class="f-2x gc">131</div>
+                  0-15 days
+                </div>
+                <div class="small-3 columns scolor">
+                  <div class="f-2x yc">17</div>
+                  15-30 days
+                </div>
+                <div class="small-3 columns scolor">
+                  <div class="f-2x" style="color:#FF6200">33</div>
+                  15-30 days
+                </div>
+                <div class="small-3 columns scolor">
+                  <div class="f-2x rc">12</div>
+                   30-45 days
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
       <div id="timelineview" style="display: none;">
@@ -297,11 +535,11 @@
                 </div>
               </div>
               <div class="small-2 b-ws-top columns b-ws-top-p">
-              <div class="b-ws-top">
-              <div class=""><i class="icon-dollar bgc xs-ws-right"></i>Saves Cost</div>
-              <div><i class="icon-check bc xs-ws-right"></i><span class="scolor2 s"> is </span>Simple<span class="scolor2 s"> to implement</span></div>
-              <div><i class="icon-clock dbc xs-ws-right"></i><span class="scolor2 s"> will take</span> 30-60 days</div>
-              </div>
+                <div class="b-ws-top">
+                  <div class=""><i class="icon-dollar bgc xs-ws-right"></i>Saves Cost</div>
+                  <div><i class="icon-check bc xs-ws-right"></i><span class="scolor2 s"> is </span>Simple<span class="scolor2 s"> to implement</span></div>
+                  <div><i class="icon-clock dbc xs-ws-right"></i><span class="scolor2 s"> will take</span> 30-60 days</div>
+                </div>
                 <hr>
                 <input list="users" type="text" class="temp2 nm" placeholder="Team members name" style="display:none;">
                 
@@ -315,23 +553,23 @@
 
                 <datalist id="users">
                   <option value="Richa Mehra">
-                  <option value="Roshan Mishra">
-                  <option value="Nandan Shankar">
-                  <option value="Aditya Srivastava">
-                  <option value="Mansi Gupta">
-                </datalist>
-              </div>
-            </div>
-          </div>
+                    <option value="Roshan Mishra">
+                      <option value="Nandan Shankar">
+                        <option value="Aditya Srivastava">
+                          <option value="Mansi Gupta">
+                          </datalist>
+                        </div>
+                      </div>
+                    </div>
 
-          {% include footer.html %}
+                    {% include footer.html %}
 
-          <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/foundation/js/foundation.min.js"></script>
+                    <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/foundation/js/foundation.min.js"></script>
 
-          <script src="{{site.url}}{{site.baseurl}}/assets/js/app.js"></script>
-          <script src="{{site.url}}{{site.baseurl}}/assets/js/default.js"></script>
-        </body>
+                    <script src="{{site.url}}{{site.baseurl}}/assets/js/app.js"></script>
+                    <script src="{{site.url}}{{site.baseurl}}/assets/js/default.js"></script>
+                  </body>
 
-        </html>
+                  </html>
 
 

@@ -20,6 +20,13 @@ $('#login').submit(function(event)
         $('#hin').delay(200).slideDown(200);
 
     }
+    else if($('#semail2').val()=="ceo@company.com"){
+        $('#landingview').fadeOut(300);
+        $('#cockpitview').delay(300).fadeIn(300);
+        $('#hout').slideUp(200);
+        $('#hin').delay(200).slideDown(200);
+        cockpitview();
+    }
     else{
         notify("You are not authorized yet","error",5)
     }
@@ -37,6 +44,8 @@ $('#login').submit(function(event)
         });
     });
 });
+
+
 
 
 

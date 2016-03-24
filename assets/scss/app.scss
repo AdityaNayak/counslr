@@ -361,6 +361,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	border-bottom:3px solid $lightgrey;
 	text-transform:uppercase;
 	font-weight:600;
+	padding:0.25rem 1rem;
 	transition: all 0.5s;
 		&:hover,&:focus{
 		border-bottom:3px solid $lightblue;
@@ -372,7 +373,6 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	&.active a{
 		border-bottom:3px solid $darkblue;
 	}
-
 }
 .fixedbottom{
 	position: fixed;
@@ -789,4 +789,12 @@ animation-fill-mode: forwards;
     right: 0;
     background: rgba(255, 255, 255, 0.95);
     z-index: 1;
+}
+
+
+
+//progressbar plugin
+
+.progressbar-text{
+	font-size:2em;
 }

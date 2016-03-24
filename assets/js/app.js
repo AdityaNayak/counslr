@@ -14,6 +14,106 @@ var loaders = '<div class="text-center"><div class="spinner"> <svg xmlns="http:/
 
 
 
+function cockpitview(){
+
+    $('#tempbutton').click(function(e){
+        e.preventDefault();
+        $('#ctapanel').slideUp();
+        $('#ctapanel2').slideDown();
+    });
+
+    var kpi1=1.2;
+var kpi2=32;
+var kpi3=24;
+var kpi4=16;
+
+var startColor = '#FC5B3F';
+var endColor = '#6FD57F';
+var midColor = '#F8BA07';
+
+var element = document.getElementById('kpi1');
+var element1 = document.getElementById('kpi2');
+var element2 = document.getElementById('kpi3');
+var element3 = document.getElementById('kpi4');
+
+var circle = new ProgressBar.Circle(element, {
+    color: 'rgba(93, 86, 80,0.87)',
+    trailColor: '#eee',
+    trailWidth: 3,
+    duration: 6000,
+    easing: 'easeOut',
+    strokeWidth: 3,
+    value: '0',
+    // Set default step function for all animate calls
+    step: function(state, circle) {
+        circle.path.setAttribute('stroke', state.color);
+        circle.setText(kpi1.toFixed(1));
+    }
+});
+circle.animate(kpi1/5, {
+    from: {color: startColor},
+    to: {color: startColor}
+});
+
+var circle1 = new ProgressBar.Circle(element1, {
+    color: 'rgba(93, 86, 80,0.87)',
+    trailColor: '#eee',
+    trailWidth: 3,
+    duration: 6000,
+    easing: 'easeOut',
+    strokeWidth: 3,
+    value: '0',
+    // Set default step function for all animate calls
+    step: function(state, circle1) {
+        circle1.path.setAttribute('stroke', state.color);
+        circle1.setText(kpi2.toFixed(0)+"<span class='s3 scolor2'> %</span>");
+    }
+});
+circle1.animate(kpi2/100, {
+    from: {color: startColor},
+    to: {color: midColor}
+});
+
+var circle2 = new ProgressBar.Circle(element2, {
+    color: 'rgba(93, 86, 80,0.87)',
+    trailColor: '#eee',
+    trailWidth: 3,
+    duration: 6000,
+    easing: 'easeOut',
+    strokeWidth: 3,
+    value: '0',
+    // Set default step function for all animate calls
+    step: function(state, circle2) {
+        circle2.path.setAttribute('stroke', state.color);
+        circle2.setText(kpi3.toFixed(0)+"<span class='s3 scolor2'>days</span>");
+    }
+});
+circle2.animate(kpi3/30, {
+    from: {color: startColor},
+    to: {color: endColor}
+});
+
+var circle3 = new ProgressBar.Circle(element3, {
+    color: 'rgba(93, 86, 80,0.87)',
+    trailColor: '#eee',
+    trailWidth: 3,
+    duration: 6000,
+    easing: 'easeOut',
+    strokeWidth: 3,
+    value: '0',
+    // Set default step function for all animate calls
+    step: function(state, circle3) {
+        circle3.path.setAttribute('stroke', state.color);
+        circle3.setText(kpi4.toFixed(0));
+    }
+});
+circle3.animate(kpi4/100, {
+    from: {color: startColor},
+    to: {color: startColor}
+});
+}
+
+
 
 function loadingButton_id(id, d)
 {
@@ -102,7 +202,6 @@ function notify(text, type, duration)
     //   $('#alert-hook').html('<div data-alert id="alert-box" class="alert-box-wrapper alert-box alert radius" style="display:none;"> Loading... <a href="#" class="close">&times;</a> </div>');
     // });
 }
-
 
 function parallax()
 {

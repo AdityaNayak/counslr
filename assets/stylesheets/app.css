@@ -7861,13 +7861,13 @@ td {
 /* Default Link Styles */
 /* line 217, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #112e50;
+  color: #3E92CC;
   line-height: inherit;
   text-decoration: none;
 }
 /* line 222, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a:hover, a:focus {
-  color: #0f2845;
+  color: #307fb5;
 }
 /* line 230, ../bower_components/foundation/scss/foundation/components/_type.scss */
 a img {
@@ -9894,16 +9894,17 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   border-bottom: 3px solid rgba(93, 86, 80, 0.12);
   text-transform: uppercase;
   font-weight: 600;
+  padding: 0.25rem 1rem;
   transition: all 0.5s;
 }
-/* line 365, ../scss/app.scss */
+/* line 366, ../scss/app.scss */
 .tabs dd > a:hover, .tabs dd > a:focus, .tabs .tab-title > a:hover, .tabs .tab-title > a:focus {
   border-bottom: 3px solid #3E92CC;
   color: rgba(93, 86, 80, 0.87);
   outline: none;
   transition: all 0.5s;
 }
-/* line 372, ../scss/app.scss */
+/* line 373, ../scss/app.scss */
 .tabs dd.active a, .tabs .tab-title.active a {
   border-bottom: 3px solid #112e50;
 }
@@ -10312,4 +10313,9 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   right: 0;
   background: rgba(255, 255, 255, 0.95);
   z-index: 1;
+}
+
+/* line 798, ../scss/app.scss */
+.progressbar-text {
+  font-size: 2em;
 }
