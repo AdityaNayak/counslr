@@ -9574,275 +9574,280 @@ th.hide-for-touch {
 }
 
 /* line 135, ../scss/app.scss */
+.xs-ws-left-p {
+  padding-left: 0.5em;
+}
+
+/* line 138, ../scss/app.scss */
 .xs-ws-right {
   margin-right: 0.5em;
 }
 
-/* line 138, ../scss/app.scss */
+/* line 141, ../scss/app.scss */
 .s-ws-right {
   margin-right: 1em;
 }
 
-/* line 141, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 .s-ws-right-p {
   padding-right: 1em;
 }
 
-/* line 144, ../scss/app.scss */
+/* line 147, ../scss/app.scss */
 .s-ws-top {
   margin-top: 1em;
 }
 
-/* line 147, ../scss/app.scss */
+/* line 150, ../scss/app.scss */
 .m-ws-top {
   margin-top: 2em;
 }
 
-/* line 150, ../scss/app.scss */
+/* line 153, ../scss/app.scss */
 .b-ws-top {
   margin-top: 3em;
 }
 
-/* line 153, ../scss/app.scss */
+/* line 156, ../scss/app.scss */
 .s-ws-bottom {
   margin-bottom: 1em;
 }
 
-/* line 156, ../scss/app.scss */
+/* line 159, ../scss/app.scss */
 .m-ws-bottom {
   margin-bottom: 2em;
 }
 
-/* line 159, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 .b-ws-bottom {
   margin-bottom: 3em;
 }
 
-/* line 162, ../scss/app.scss */
+/* line 165, ../scss/app.scss */
 .s-ws-top-p {
   padding-top: 1em;
 }
 
-/* line 165, ../scss/app.scss */
+/* line 168, ../scss/app.scss */
 .m-ws-top-p {
   padding-top: 2em;
 }
 
-/* line 168, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 .b-ws-top-p {
   padding-top: 3em;
 }
 
-/* line 171, ../scss/app.scss */
+/* line 174, ../scss/app.scss */
 .s-ws-bottom-p {
   padding-bottom: 1em;
 }
 
-/* line 174, ../scss/app.scss */
+/* line 177, ../scss/app.scss */
 .m-ws-bottom-p {
   padding-bottom: 2em;
 }
 
-/* line 177, ../scss/app.scss */
+/* line 180, ../scss/app.scss */
 .b-ws-bottom-p {
   padding-bottom: 3em;
 }
 
-/* line 186, ../scss/app.scss */
+/* line 189, ../scss/app.scss */
 .wbr {
   border-color: #ffffff !important;
 }
 
-/* line 189, ../scss/app.scss */
+/* line 192, ../scss/app.scss */
 .yc {
   color: #F8BA07 !important;
 }
 
-/* line 192, ../scss/app.scss */
+/* line 195, ../scss/app.scss */
 .gc {
   color: #43AC6A !important;
 }
 
-/* line 195, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .rc {
   color: #9F2820 !important;
 }
 
-/* line 198, ../scss/app.scss */
+/* line 201, ../scss/app.scss */
 .bc {
   color: #3E92CC !important;
 }
 
-/* line 201, ../scss/app.scss */
+/* line 204, ../scss/app.scss */
 .dbc {
   color: #112e50 !important;
 }
 
-/* line 204, ../scss/app.scss */
+/* line 207, ../scss/app.scss */
 .bgc {
   color: #00A9A5 !important;
 }
 
-/* line 207, ../scss/app.scss */
+/* line 210, ../scss/app.scss */
 .wc {
   color: #ffffff !important;
 }
 
-/* line 210, ../scss/app.scss */
+/* line 213, ../scss/app.scss */
 .wbg {
   background: #ffffff !important;
 }
 
-/* line 213, ../scss/app.scss */
+/* line 216, ../scss/app.scss */
 .lwbg {
   background: rgba(255, 255, 255, 0.87) !important;
 }
 
-/* line 216, ../scss/app.scss */
+/* line 219, ../scss/app.scss */
 .scolor3bg {
   background: rgba(93, 86, 80, 0.26) !important;
 }
 
-/* line 225, ../scss/app.scss */
+/* line 228, ../scss/app.scss */
 .bkbg {
   background: #222222 !important;
 }
 
-/* line 228, ../scss/app.scss */
+/* line 231, ../scss/app.scss */
 .bgbg {
   background: #00A9A5 !important;
 }
 
-/* line 231, ../scss/app.scss */
+/* line 234, ../scss/app.scss */
 .dbbg {
   background: #112e50 !important;
 }
 
-/* line 234, ../scss/app.scss */
+/* line 237, ../scss/app.scss */
 .lgbg {
   background: #F9F9F9 !important;
 }
 
-/* line 237, ../scss/app.scss */
+/* line 240, ../scss/app.scss */
 .scolor {
   color: rgba(93, 86, 80, 0.76);
 }
 
-/* line 240, ../scss/app.scss */
+/* line 243, ../scss/app.scss */
 .scolor2 {
   color: rgba(93, 86, 80, 0.54);
 }
 
-/* line 243, ../scss/app.scss */
+/* line 246, ../scss/app.scss */
 .scolor3, .tl-menu li i, .tl-menu-l li i {
   color: rgba(93, 86, 80, 0.26);
 }
 
-/* line 246, ../scss/app.scss */
+/* line 249, ../scss/app.scss */
 .scolor4 {
   color: rgba(93, 86, 80, 0.12);
 }
 
-/* line 249, ../scss/app.scss */
+/* line 252, ../scss/app.scss */
 .wcolor {
   color: rgba(255, 255, 255, 0.81);
 }
 
-/* line 252, ../scss/app.scss */
+/* line 255, ../scss/app.scss */
 .wcolor2 {
   color: rgba(255, 255, 255, 0.64);
 }
 
-/* line 255, ../scss/app.scss */
+/* line 258, ../scss/app.scss */
 .wcolor3 {
   color: rgba(255, 255, 255, 0.48);
 }
 
-/* line 258, ../scss/app.scss */
+/* line 261, ../scss/app.scss */
 .s {
   font-size: 0.85em;
 }
 
-/* line 261, ../scss/app.scss */
+/* line 264, ../scss/app.scss */
 .s2 {
   font-size: 0.72em;
 }
 
-/* line 264, ../scss/app.scss */
+/* line 267, ../scss/app.scss */
 .s3 {
   font-size: 0.5em;
 }
 
-/* line 268, ../scss/app.scss */
+/* line 271, ../scss/app.scss */
 .f-1-5x {
   font-size: 1.5em;
 }
 
-/* line 271, ../scss/app.scss */
+/* line 274, ../scss/app.scss */
 .f-1-25x {
   font-size: 1.25em;
 }
 
-/* line 274, ../scss/app.scss */
+/* line 277, ../scss/app.scss */
 .f-2x {
   font-size: 2em;
 }
 
-/* line 277, ../scss/app.scss */
+/* line 280, ../scss/app.scss */
 .f-2-5x {
   font-size: 2.5em;
 }
 
-/* line 280, ../scss/app.scss */
+/* line 283, ../scss/app.scss */
 .f-3x {
   font-size: 3em;
 }
 
-/* line 283, ../scss/app.scss */
+/* line 286, ../scss/app.scss */
 .f-4x {
   font-size: 4em;
 }
 
-/* line 286, ../scss/app.scss */
+/* line 289, ../scss/app.scss */
 .f-l {
   font-weight: 400;
 }
 
-/* line 289, ../scss/app.scss */
+/* line 292, ../scss/app.scss */
 .cs {
   cursor: pointer;
   transition: color 0.5s;
 }
-/* line 292, ../scss/app.scss */
+/* line 295, ../scss/app.scss */
 .cs:hover, .cs:focus {
   color: #112e50;
   transition: color 0.5s;
 }
 
-/* line 298, ../scss/app.scss */
+/* line 301, ../scss/app.scss */
 .button {
   text-transform: uppercase;
   border-radius: 3px;
 }
 
-/* line 302, ../scss/app.scss */
+/* line 305, ../scss/app.scss */
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="submit"], input[type="url"], input[type="color"], textarea {
   border-radius: 3px;
 }
 
-/* line 306, ../scss/app.scss */
+/* line 309, ../scss/app.scss */
 .btn {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
 }
-/* line 310, ../scss/app.scss */
+/* line 313, ../scss/app.scss */
 .btn.disabled {
   cursor: default;
   color: rgba(62, 146, 204, 0.6);
 }
 
-/* line 315, ../scss/app.scss */
+/* line 318, ../scss/app.scss */
 .tbtn {
   border: 1px solid rgba(93, 86, 80, 0.12);
   border-radius: 3px;
@@ -9850,46 +9855,46 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   transition: background 1s;
   margin-right: 0.5em;
 }
-/* line 322, ../scss/app.scss */
+/* line 325, ../scss/app.scss */
 .tbtn.cs:hover {
   pointer: cursor;
   background: rgba(93, 86, 80, 0.12);
   transition: background 1s;
 }
-/* line 330, ../scss/app.scss */
+/* line 333, ../scss/app.scss */
 .tbtn.selected {
   background: #00A9A5;
 }
 
-/* line 335, ../scss/app.scss */
+/* line 338, ../scss/app.scss */
 .panel, .plist {
   border-radius: 3px;
 }
-/* line 337, ../scss/app.scss */
+/* line 340, ../scss/app.scss */
 .panel.h, .h.plist {
   padding-top: 0.5em;
 }
 
-/* line 341, ../scss/app.scss */
+/* line 344, ../scss/app.scss */
 .sub-nav dt, .sub-nav dd, .sub-nav li {
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 347, ../scss/app.scss */
+/* line 350, ../scss/app.scss */
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
   color: rgba(93, 86, 80, 0.87);
 }
-/* line 351, ../scss/app.scss */
+/* line 354, ../scss/app.scss */
 .sub-nav dt > a, .sub-nav dd > a, .sub-nav li > a {
   transition: color 0.5s;
 }
-/* line 353, ../scss/app.scss */
+/* line 356, ../scss/app.scss */
 .sub-nav dt > a:hover, .sub-nav dt > a:focus, .sub-nav dd > a:hover, .sub-nav dd > a:focus, .sub-nav li > a:hover, .sub-nav li > a:focus {
   color: rgba(93, 86, 80, 0.87);
   transition: color 0.5s;
 }
 
-/* line 360, ../scss/app.scss */
+/* line 363, ../scss/app.scss */
 .tabs dd > a, .tabs .tab-title > a {
   border-bottom: 3px solid rgba(93, 86, 80, 0.12);
   text-transform: uppercase;
@@ -9897,19 +9902,19 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding: 0.25rem 1rem;
   transition: all 0.5s;
 }
-/* line 366, ../scss/app.scss */
+/* line 369, ../scss/app.scss */
 .tabs dd > a:hover, .tabs dd > a:focus, .tabs .tab-title > a:hover, .tabs .tab-title > a:focus {
   border-bottom: 3px solid #3E92CC;
   color: rgba(93, 86, 80, 0.87);
   outline: none;
   transition: all 0.5s;
 }
-/* line 373, ../scss/app.scss */
+/* line 376, ../scss/app.scss */
 .tabs dd.active a, .tabs .tab-title.active a {
   border-bottom: 3px solid #112e50;
 }
 
-/* line 377, ../scss/app.scss */
+/* line 380, ../scss/app.scss */
 .fixedbottom {
   position: fixed;
   bottom: 0;
@@ -9918,17 +9923,17 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   left: 0;
 }
 
-/* line 384, ../scss/app.scss */
+/* line 387, ../scss/app.scss */
 .profileimg {
   border: 3px solid #ffffff;
   box-shadow: 0px 0px 1px rgba(93, 86, 80, 0.12);
 }
 
-/* line 388, ../scss/app.scss */
+/* line 391, ../scss/app.scss */
 .bgline {
   padding: 1em 0 5em 0;
 }
-/* line 390, ../scss/app.scss */
+/* line 393, ../scss/app.scss */
 .bgline .circle {
   width: 25px;
   height: 25px;
@@ -9940,7 +9945,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   display: inline-block;
   border: 1px solid rgba(93, 86, 80, 0.12);
 }
-/* line 401, ../scss/app.scss */
+/* line 404, ../scss/app.scss */
 .bgline::before {
   content: "";
   display: block;
@@ -9951,16 +9956,16 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   bottom: 0;
   border: 1px solid #EFEFEF;
 }
-/* line 411, ../scss/app.scss */
+/* line 414, ../scss/app.scss */
 .bgline.sm {
   padding: 0 0 1.5em 0;
 }
 
-/* line 415, ../scss/app.scss */
+/* line 418, ../scss/app.scss */
 .plist {
   padding: 0;
 }
-/* line 418, ../scss/app.scss */
+/* line 421, ../scss/app.scss */
 .plist .plistli {
   transition: background 0.5s;
   padding-left: 0.9375rem;
@@ -9969,35 +9974,35 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding-bottom: 0.5em;
   border-bottom: 1px solid rgba(93, 86, 80, 0.12);
 }
-/* line 425, ../scss/app.scss */
+/* line 428, ../scss/app.scss */
 .plist .plistli:hover, .plist .plistli:focus {
   background: #F6F6F6;
   transition: background 0.5s;
   cursor: pointer;
 }
-/* line 431, ../scss/app.scss */
+/* line 434, ../scss/app.scss */
 .plist .plistli.nhv:hover, .plist .plistli.nhv:focus {
   background: #ffffff;
   cursor: default;
 }
-/* line 436, ../scss/app.scss */
+/* line 439, ../scss/app.scss */
 .plist .plistli.active {
   background: #F5F5F5;
 }
-/* line 440, ../scss/app.scss */
+/* line 443, ../scss/app.scss */
 .plist .dark {
   background: #112e50;
 }
-/* line 442, ../scss/app.scss */
+/* line 445, ../scss/app.scss */
 .plist .dark h1, .plist .dark h2, .plist .dark h3, .plist .dark h4, .plist .dark h5, .plist .dark h6 {
   color: #ffffff;
 }
-/* line 448, ../scss/app.scss */
+/* line 451, ../scss/app.scss */
 .plist.ulist .plistli:hover, .plist.ulist .plistli:focus {
   cursor: default;
 }
 
-/* line 455, ../scss/app.scss */
+/* line 458, ../scss/app.scss */
 .progress.stripes span.meter {
   background-size: 30px 30px;
   background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -10012,7 +10017,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     background-position: 60px 0;
   }
 }
-/* line 467, ../scss/app.scss */
+/* line 470, ../scss/app.scss */
 .tl-menu li {
   width: 2em;
   height: 2em;
@@ -10025,7 +10030,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   color: white;
   position: relative;
 }
-/* line 483, ../scss/app.scss */
+/* line 486, ../scss/app.scss */
 .tl-menu li::before {
   content: '';
   position: absolute;
@@ -10036,28 +10041,28 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   background: rgba(0, 169, 165, 0.5);
   z-index: -1;
 }
-/* line 495, ../scss/app.scss */
+/* line 498, ../scss/app.scss */
 .tl-menu li:first-child::before {
   display: none;
 }
-/* line 499, ../scss/app.scss */
+/* line 502, ../scss/app.scss */
 .tl-menu .active {
   background: #112e50;
 }
-/* line 501, ../scss/app.scss */
+/* line 504, ../scss/app.scss */
 .tl-menu .active i {
   color: #3E92CC;
 }
-/* line 506, ../scss/app.scss */
+/* line 509, ../scss/app.scss */
 .tl-menu .active ~ li {
   background: #DDDDDD;
 }
-/* line 510, ../scss/app.scss */
+/* line 513, ../scss/app.scss */
 .tl-menu .active ~ li::before {
   background: #EEEEEE;
 }
 
-/* line 515, ../scss/app.scss */
+/* line 518, ../scss/app.scss */
 .tl-menu-l li {
   width: 2em;
   height: 2em;
@@ -10070,7 +10075,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   color: white;
   position: relative;
 }
-/* line 531, ../scss/app.scss */
+/* line 534, ../scss/app.scss */
 .tl-menu-l li::before {
   content: '';
   position: absolute;
@@ -10081,44 +10086,44 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   background: #EEEEEE;
   z-index: -1;
 }
-/* line 541, ../scss/app.scss */
+/* line 544, ../scss/app.scss */
 .tl-menu-l li:first-child::before {
   display: none;
 }
 
-/* line 546, ../scss/app.scss */
+/* line 549, ../scss/app.scss */
 .tl-menu-list li {
   display: inline-block;
   width: 7em;
   text-align: center;
 }
 
-/* line 556, ../scss/app.scss */
+/* line 559, ../scss/app.scss */
 .mmenuli {
   opacity: 0.3;
   transition: all 1s;
 }
-/* line 559, ../scss/app.scss */
+/* line 562, ../scss/app.scss */
 .mmenuli:hover, .mmenuli:focus {
   transition: all 1s;
   opacity: 1;
 }
-/* line 563, ../scss/app.scss */
+/* line 566, ../scss/app.scss */
 .mmenuli.active {
   opacity: 1;
   border-bottom: 3px solid #3E92CC;
 }
-/* line 566, ../scss/app.scss */
+/* line 569, ../scss/app.scss */
 .mmenuli.active i {
   color: #F8BA07;
 }
 
-/* line 573, ../scss/app.scss */
+/* line 576, ../scss/app.scss */
 .nbg .top-bar-section li:not(.has-form) a:not(.button) {
   background: none;
   color: #ffffff;
 }
-/* line 578, ../scss/app.scss */
+/* line 581, ../scss/app.scss */
 .nbg .top-bar-section ul li {
   background: none;
 }
@@ -10137,14 +10142,14 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
        *
        *      SHRINK_TIME = 400ms
        */
-/* line 603, ../scss/app.scss */
+/* line 606, ../scss/app.scss */
 .spinner {
   margin: 10px 20px;
   text-align: center;
   display: inline-block;
 }
 
-/* line 609, ../scss/app.scss */
+/* line 612, ../scss/app.scss */
 .spinner svg {
   background-color: white;
   border-radius: 50%;
@@ -10152,7 +10157,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
-/* line 616, ../scss/app.scss */
+/* line 619, ../scss/app.scss */
 .qp-circular-loader {
   width: 64px;
   /* 2*RADIUS + STROKEWIDTH */
@@ -10161,7 +10166,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   stroke-width: 3px;
 }
 
-/* line 626, ../scss/app.scss */
+/* line 629, ../scss/app.scss */
 .qp-circular-loader-path {
   stroke-dasharray: 58.9;
   /* 2*RADIUS*PI * ARCSIZE/360 */
@@ -10171,7 +10176,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 
 /* SVG elements seem to have a different default origin */
-/* line 636, ../scss/app.scss */
+/* line 639, ../scss/app.scss */
 .qp-circular-loader,
 .qp-circular-loader * {
   -webkit-transform-origin: 50% 50%;
@@ -10195,7 +10200,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     transform: rotate(360deg);
   }
 }
-/* line 661, ../scss/app.scss */
+/* line 664, ../scss/app.scss */
 .qp-circular-loader {
   -webkit-animation-name: rotate;
   animation-name: rotate;
@@ -10287,7 +10292,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     stroke: #ed1b72;
   }
 }
-/* line 767, ../scss/app.scss */
+/* line 770, ../scss/app.scss */
 .qp-circular-loader-path {
   -webkit-animation-name: fillunfill, rot, colors;
   animation-name: fillunfill, rot, colors;
@@ -10304,7 +10309,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   animation-fill-mode: forwards;
 }
 
-/* line 784, ../scss/app.scss */
+/* line 787, ../scss/app.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -10315,7 +10320,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   z-index: 1;
 }
 
-/* line 798, ../scss/app.scss */
+/* line 801, ../scss/app.scss */
 .progressbar-text {
   font-size: 2em;
 }

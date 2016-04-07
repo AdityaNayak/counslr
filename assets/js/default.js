@@ -9,7 +9,20 @@ $('#login').submit(function(event)
         $("#timelineview").delay(300).fadeIn(300);
         $('.rv').fadeIn();
         $('#hout').slideUp(200);
-    $('#hin').delay(200).slideDown(200);
+        $('#hin').delay(200).slideDown(200);
+
+        $('#abtn').click(function(){
+            $('#abtn').slideUp(300).delay(300).html("Assign").fadeIn().addClass('abtn');
+            $('.temp1').slideUp();
+            $('.temp2').delay(300).slideDown();
+
+            $('.abtn').click(function(){
+                $('.temp2').fadeOut(300);  
+                $('#abtn').fadeOut(300);
+                notify("Raju Hirani has been assigned","success",5);
+                $('#assignarea').delay(400).fadeIn();              
+            });
+        });
 
     }
     else if($('#semail2').val()=="submitter@company.com"){
@@ -27,6 +40,13 @@ $('#login').submit(function(event)
         $('#hin').delay(200).slideDown(200);
         cockpitview();
     }
+    else if($('#semail2').val()=="implementor@company.com"){
+        $('#landingview').fadeOut(300);
+        $('#implementorview').delay(300).fadeIn(300);
+        $('#hout').slideUp(200);
+        $('#hin').delay(200).slideDown(200);
+        implementorview();
+    }
     else{
         notify("You are not authorized yet","error",5)
     }
@@ -37,12 +57,16 @@ $('#login').submit(function(event)
         $('#timelineview').fadeOut(300);
         $('#singleideaview').delay(300).fadeIn();
 
-        $('#abtn').click(function(){
-            $('#abtn').slideUp(300).delay(300).html("Assign").slideDown();
-            $('.temp1').slideUp();
-            $('.temp2').delay(300).slideDown();
-        });
+        
     });
+});
+
+$("#drop1 a").click(function(e){
+    e.preventDefault();
+    $("#timelineview").fadeOut(300);
+    $("#singleideaview").delay(300).fadeIn();
+    $('.rv').delay(300).hide();
+    $('.iv').delay(300).show();
 });
 
 
